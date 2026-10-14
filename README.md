@@ -172,13 +172,21 @@ El procedimiento de trabajo consistió en:
 
 Este procedimiento permite mantener un historial de trabajo y evitar realizar directamente las modificaciones de las funcionalidades en "main".
 
+
 10. Conclusión
 
 El proyecto permitió practicar el desarrollo de una aplicación web y el consumo de una API pública, además de reforzar el uso de Git y GitHub.
 
 Se trabajó con la estructura HTML, los estilos CSS, la programación con JavaScript, las solicitudes HTTP y la gestión de errores.
-
 También se practicó la organización del trabajo mediante ramas, commits, Pull Requests y Merge, herramientas que permiten mantener un desarrollo más ordenado y controlado.
 Práctica de conflictos
 
+Práctica de conflictos
+
+Mensaje de la rama A: el proyecto utiliza Git para controlar versiones.
+
 Mensaje de la rama B: el proyecto utiliza GitHub para compartir los cambios.
+
+- Git detectó que las dos ramas modificaron la misma sección del README.md.
+- Se produjo un conflicto porque las versiones tenían contenido diferente.
+- Se resolvió conservando ambos mensajes y eliminando los marcadores de conflicto.
