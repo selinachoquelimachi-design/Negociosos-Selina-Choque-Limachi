@@ -14,6 +14,11 @@ formulario.addEventListener("submit", async function (evento) {
         resultado.replaceChildren();
         return;
     }
+    if (!/^[a-zA-Z-]+$/.test(nombre)) {
+    mensaje.textContent = "Escribe un nombre válido, sin números ni símbolos.";
+    resultado.innerHTML = "";
+    return;
+}
 
     // Mostrar el estado de carga
     mensaje.textContent = "Cargando...";
