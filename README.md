@@ -179,3 +179,6 @@ El proyecto permitió practicar el desarrollo de una aplicación web y el consum
 Se trabajó con la estructura HTML, los estilos CSS, la programación con JavaScript, las solicitudes HTTP y la gestión de errores.
 
 También se practicó la organización del trabajo mediante ramas, commits, Pull Requests y Merge, herramientas que permiten mantener un desarrollo más ordenado y controlado.
+Práctica de conflictos
+
+Mensaje de la rama B: el proyecto utiliza GitHub para compartir los cambios.
