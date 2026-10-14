@@ -67,6 +67,44 @@
             margin: 4px;
             border-radius: 15px;
         }
+        /* Mejoras visuales de la aplicación */
+
+.contenedor {
+    border: 2px solid #e3350d;
+    transition: transform 0.2s ease;
+}
+
+.contenedor:hover {
+    transform: translateY(-3px);
+}
+
+input:focus {
+    outline: 2px solid #e3350d;
+    outline-offset: 2px;
+}
+
+button {
+    transition: background-color 0.2s ease;
+}
+
+button:focus-visible {
+    outline: 3px solid #222;
+    outline-offset: 3px;
+}
+
+#resultado h2 {
+    color: #303030;
+    text-transform: capitalize;
+}
+
+#resultado p {
+    font-size: 17px;
+    color: #444;
+}
+
+.tipo {
+    text-transform: capitalize;
+}
     </style>
 
     <script src="app.js" defer></script>
