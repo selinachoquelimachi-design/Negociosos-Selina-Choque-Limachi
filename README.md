@@ -171,6 +171,9 @@ El procedimiento de trabajo consistió en:
 10. Revisar los archivos modificados antes de combinar la rama mediante Merge.
 
 Este procedimiento permite mantener un historial de trabajo y evitar realizar directamente las modificaciones de las funcionalidades en "main".
+Práctica de conflictos
+
+Mensaje de la rama A: el proyecto utiliza Git para controlar versiones.
 
 10. Conclusión
 
