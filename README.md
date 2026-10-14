@@ -171,14 +171,14 @@ El procedimiento de trabajo consistió en:
 10. Revisar los archivos modificados antes de combinar la rama mediante Merge.
 
 Este procedimiento permite mantener un historial de trabajo y evitar realizar directamente las modificaciones de las funcionalidades en "main".
-Práctica de conflictos
 
-Mensaje de la rama A: el proyecto utiliza Git para controlar versiones.
 
 10. Conclusión
 
 El proyecto permitió practicar el desarrollo de una aplicación web y el consumo de una API pública, además de reforzar el uso de Git y GitHub.
 
 Se trabajó con la estructura HTML, los estilos CSS, la programación con JavaScript, las solicitudes HTTP y la gestión de errores.
-
 También se practicó la organización del trabajo mediante ramas, commits, Pull Requests y Merge, herramientas que permiten mantener un desarrollo más ordenado y controlado.
+Práctica de conflictos
+
+Mensaje de la rama A: el proyecto utiliza Git para controlar versiones.
