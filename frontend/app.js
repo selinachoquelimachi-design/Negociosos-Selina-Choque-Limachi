@@ -25,17 +25,23 @@ formulario.addEventListener("submit", async function (evento) {
         );
 
         // Comprobar si la petición fue exitosa
-        if (!respuesta.ok) {
-            if (respuesta.status === 404) {
-                throw new Error(
-                    "No se encontró ese Pokémon. Comprueba el nombre e inténtalo de nuevo."
-                );
-            }
+    if (!respuesta.ok) {
+    if (respuesta.status === 404) {
+        throw new Error(
+            "Pokémon no encontrado. Verifica el nombre e inténtalo nuevamente."
+        );
+    }
 
-            throw new Error(
-                `No se pudo consultar la API. Código: ${respuesta.status}.`
-            );
-        }
+    if (respuesta.status >= 500) {
+        throw new Error(
+            "El servidor de Pokémon no está disponible. Inténtalo más tarde."
+        );
+    }
+
+    throw new Error(
+        `Error al consultar Pokémon. Código HTTP: ${respuesta.status}.`
+    );
+}
 
         const pokemon = await respuesta.json();
 
